@@ -59,7 +59,7 @@ s = f"<p style='font-size:30px; color:purple; font-family:Gill Sans Extrabold, s
 st.markdown(s,unsafe_allow_html=True)
 
 #Power
-p = 'The power A**B of Two Number is:'
+p = 'The power A^B of Two Number is:'
 s5 = f"<p style='font-size:40px; color:Orange ;font-family:Gill Sans Extrabold, sans-serif;'>{p}</p>"
 st.markdown(s5,unsafe_allow_html=True)
 power = A**B
